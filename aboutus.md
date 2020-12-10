@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        .button {
+            background-color: #e3f2fd;
+            float: right;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 14px;
+            margin: 10px 5px;
+            cursor: pointer;
+            }
+
+        
+        .selected, .button:hover {
+            background-color: #007bff;
+            color:white;
+            }
+
+        h3 {
+            font-size: 20px ;
+            font-weight: normal;
+            padding-left: 20px;
+            }
+
+        p {
+            margin: 20px 20px;
+            font-size: 13.6px;
+            }
+
+        .headline {
+            margin: 20px 0px;
+            font-size: 16px;
+            }
+
+
+        }
+        
+
+        }
+        
+    </style>
+
+</head>
+
+<body style="margin: 0px; display: flex; justify-content: center ; ">
+
+<div style="background-color: #e3f2fd;
+            height: 60px; 
+            width:1200px;
+            ">
+    
+    <a href="http://www.icode-lab.com ;" > 
+        <img src="http://www.icode-lab.com/static/images/icode-lab.png" alt="icode-lab" 
+            style="
+            width: 145px; 
+            height: 30px;
+            margin: 15px 0px 0px 20px;
+            "
+        > 
+        <button class="button HB4 ">Contact</button>
+        <button class="button HB3 ">Products</button>
+        <button class="button HB2 ">News</button>
+        <button class="button HB1 selected">About US</button>
+    
+    </a>
+
+
+    <h3>About Us</h3>
+
+<p style="border-bottom: solid 1px darkgrey; margin: 0px 20px;" ></p>
+
+<img src="i.JPG" style="width: 22px; height: 22px; margin: 22px 2px 0px 20px; display: block; float: left;">
+
+<p class="headline" style="display: block;" >Innovative, interlligent solutions</p>    
+
+<p>아이코드랩은 딥러닝 및 영상 처리 전문 기술기업입니다.</p>
+
+<p>아이코드랩은 서울대학교 NCIA (Numerical Computing & Image Analysis) 연구실 소속 연구원들이 주축이 되어 설립되었습니다. 아이코드랩은 산업 분야 전반에 걸친 다양한 문제에 빠르고 정확한 해법을 제공합니다.</p>
+
+<p style="border-bottom: solid 1px darkgrey; margin: 0px 20px;" ></p>
+
+<p style="border-bottom: solid 1px darkgrey; margin: 0px 20px;" ></p>
+
+<img src="p.JPG" style="width: 16px; height: 16px; margin: 24px 2px 0px 20px; display: block; float: left;">
+
+<p class="headline" style="display: block;" >People</p>    
+
+<img src="http://www.icode-lab.com/static/portraits/giraffe.png" 
+     style="width: 228px; height: 228px; padding: 16px; border: 1px solid darkgrey; border-radius: 6px;
+     margin: 0px 30px"  >
+
+
+
+</div>
+
+
+</body>
+
+
+
+</html>
+
+
